@@ -7,17 +7,18 @@
 </head>
 <body>
     <script>
-        alert("Simple Percentage Calculator")
-        function persentagecalculater(){
-        let obtainmarks= prompt("enter your obtained marks");
+        alert("Simple percentage Calculator")
+        function percentagecalculator(){
+        let obtainmarks= prompt("enter your obtain marks");
         obtainmarks = Number(obtainmarks);
-        let totalmarks= prompt("enter your total marks");
+        let totalmarks= prompt("enter total marks");
         totalmarks = Number(totalmarks);
-        const persentage = (obtainmarks/totalmarks)*100;
-        console.log(persentage);
-
+        const calculate = (obtainmarks / totalmarks)*100;
+        return calculate;
     }
-    persentagecalculater();
+    const result = percentagecalculator();
+    alert(result)
+
 
 
     </script>
